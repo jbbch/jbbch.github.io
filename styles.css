@@ -5,7 +5,7 @@
 }
 
 body {
-  max-width: 1200px;
+  max-width: 920px;
   margin: 0 auto;
   background-color: #fff;
   color: #333333;
@@ -15,41 +15,41 @@ body {
 }
 
 header {
-  margin: 20px 20px;
+  margin: 20px 20px 55px 20px;
   display: flex;
   justify-content: space-between;
+  background-color: #fff;
 }
 
 header .photo-container {
+  position: relative;
   display: flex;
   align-items: center;
 }
 
-header .photo-container label {
-  margin-left: 15px;
-}
-
 header .photo {
-  height: 75px;
-  width: 75px;
+  position: absolute;
+  right: 185px;
+  height: 50px;
+  width: 50px;
   border-radius: 50%;
   border: none;
   background-color: black;
 }
 
-header .links-container {
-  display: flex;
-  align-items: center;
-  list-style: none;
+section {
+  padding: 0 20px;
+  margin-bottom: 65px;
+  border-left: 1px solid #222222;
+  border-right: 1px solid #222222;
 }
 
-header .links-container > li {
-  margin-left: 15px;
-  cursor: pointer;
-  border-bottom: 1px solid #222222;
+section h3 {
+  margin-bottom: 1em;
 }
 
-header .links-container > li:hover {
-  color: #666666;
-  border-bottom: 1px solid #666666;
+section p {
+  font-weight: normal;
+  line-height: 1.3em;
+  margin-bottom: 1em;
 }
