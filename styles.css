@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #A79C93;
+  background-color: #03353E;
+  font-family: 'Lora', serif;
+}
+
+header {
+  margin: 20px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+header .photo {
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  border: none;
+  background-color: #0294A5;
+}
+
+header .links {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+header .links > * {
+  margin-left: 15px;
+  cursor: pointer;
+}
