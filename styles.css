@@ -42,15 +42,19 @@ header .description-container {
 }
 
 section {
-  padding: 0 20px;
   margin-bottom: 65px;
-  border-left: 1px solid #222222;
-  border-right: 1px solid #222222;
 }
 
 section h3 {
+  padding: 0 20px;
   margin-bottom: 1em;
 }
+
+section .section-content {
+  padding: 0 20px;
+  border-left: 2px solid #222222;
+}
+
 
 section p {
   font-weight: normal;
