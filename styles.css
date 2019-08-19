@@ -37,6 +37,10 @@ header .photo {
   background-color: black;
 }
 
+header .description-container {
+  text-align: right;
+}
+
 section {
   padding: 0 20px;
   margin-bottom: 65px;
