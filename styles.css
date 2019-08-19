@@ -5,9 +5,13 @@
 }
 
 body {
-  color: #A79C93;
-  background-color: #03353E;
-  font-family: 'Lora', serif;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #fff;
+  color: #333333;
+  font-family: 'Source Serif Pro', serif;
+  font-size: 22px;
+  font-weight: bold;
 }
 
 header {
@@ -16,21 +20,36 @@ header {
   justify-content: space-between;
 }
 
+header .photo-container {
+  display: flex;
+  align-items: center;
+}
+
+header .photo-container label {
+  margin-left: 15px;
+}
+
 header .photo {
   height: 75px;
   width: 75px;
   border-radius: 50%;
   border: none;
-  background-color: #0294A5;
+  background-color: black;
 }
 
-header .links {
+header .links-container {
   display: flex;
   align-items: center;
   list-style: none;
 }
 
-header .links > * {
+header .links-container > li {
   margin-left: 15px;
   cursor: pointer;
+  border-bottom: 1px solid #222222;
+}
+
+header .links-container > li:hover {
+  color: #666666;
+  border-bottom: 1px solid #666666;
 }
