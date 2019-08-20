@@ -24,7 +24,6 @@ header {
 }
 
 header .photo-container {
-  /* width: 20%; */
   margin-right: 20px;
 }
 
@@ -70,20 +69,5 @@ section p {
   header .photo-container {
     position: absolute;
     left: -65px;
-  }
-
-  header .photo {
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    border: none;
-    background-color: black;
-  }
-
-  header .description-container {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    align-items: center;
   }
 }
